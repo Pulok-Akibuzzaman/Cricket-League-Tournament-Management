@@ -33,17 +33,16 @@ Once installed, the application will be ready to use. The scripts in the `applic
 - Review the `install.sql` file to understand the sequence of operations.
 
 ## Team Members
-- **Pulok Akibuzzaman**
-	- GitHub: [GitHub Profile](https://github.com/Pulok-Akibuzzaman)
-	- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/pulok-akibuzzaman-73a21229a/)
 
-**Nusrat Rahman Aurna**
+### Pulok Akibuzzaman
+- GitHub: [Pulok Akibuzzaman](https://github.com/Pulok-Akibuzzaman)
+- LinkedIn: [Pulok Akibuzzaman](https://www.linkedin.com/in/pulok-akibuzzaman-73a21229a/)
 
-Connect with the team:
-- 🔗 [GitHub](https://github.com/Nusrat60-057)
-- 💼 [LinkedIn](https://www.linkedin.com/in/nusrat-rahman-aurna-292b16331/)
+### Nusrat Rahman Aurna
+- GitHub: [Nusrat Rahman Aurna](https://github.com/Nusrat60-057)
+- LinkedIn: [Nusrat Rahman Aurna](https://www.linkedin.com/in/nusrat-rahman-aurna-292b16331/)
 
-**Zeba Tahira**
-- 🔗 [GitHub](https://github.com/zebatahira)
+### Zeba Tahira
+- GitHub: [Zeba Tahira](https://github.com/zebatahira)
 
 ---
