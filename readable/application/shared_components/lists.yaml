@@ -1,0 +1,1394 @@
+---
+- # ====== List: Navigation Menu ===============================
+  id: 120315207593626986115
+  identification: 
+    name: Navigation Menu
+
+  subscription: 
+    version-number: 15684621026743
+
+  source: 
+    type: Static Values
+
+  entries: 
+  - # ====== Entry: Home =========================================
+    id: 120315231137953986148
+    label: 
+      label: Home
+
+    icon: 
+      image/icon-css-classes: fa-home
+
+    layout: 
+      sequence: 10
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:1:&APP_SESSION.::&DEBUG.:::'
+        page: 1 # Home
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Person =======================================
+    id: 120315232646858986151
+    label: 
+      label: Person
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 20
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:2:&APP_SESSION.::&DEBUG.:::'
+        page: 2 # Person
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Team =========================================
+    id: 120315253965389986341
+    label: 
+      label: Team
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 30
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:4:&APP_SESSION.::&DEBUG.:::'
+        page: 4 # Team
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Tournament ===================================
+    id: 120315271202544986971
+    label: 
+      label: Tournament
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 40
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:6:&APP_SESSION.::&DEBUG.:::'
+        page: 6 # Tournament
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Venue ========================================
+    id: 120315525667415987561
+    label: 
+      label: Venue
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 50
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:8:&APP_SESSION.::&DEBUG.:::'
+        page: 8 # Venue
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Ticket =======================================
+    id: 120315541951948988140
+    label: 
+      label: Ticket
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 60
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:10:&APP_SESSION.::&DEBUG.:::'
+        page: 10 # Ticket
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Audience =====================================
+    id: 120315562109751988726
+    label: 
+      label: Audience
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 70
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:12:&APP_SESSION.::&DEBUG.:::'
+        page: 12 # Audience
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Coach ========================================
+    id: 120315579234940989299
+    label: 
+      label: Coach
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 80
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:14:&APP_SESSION.::&DEBUG.:::'
+        page: 14 # Coach
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Match ========================================
+    id: 120315601722773989892
+    label: 
+      label: Match
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 90
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:16:&APP_SESSION.::&DEBUG.:::'
+        page: 16 # Match
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Schedule =====================================
+    id: 120315621049061990458
+    label: 
+      label: Schedule
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 100
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:18:&APP_SESSION.::&DEBUG.:::'
+        page: 18 # Schedule
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Match Statistics =============================
+    id: 120315637493152991033
+    label: 
+      label: Match Statistics
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 110
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:20:&APP_SESSION.::&DEBUG.:::'
+        page: 20 # Match Statistics
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Attends ======================================
+    id: 120315663594663991611
+    label: 
+      label: Attends
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 120
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:22:&APP_SESSION.::&DEBUG.:::'
+        page: 22 # Attends
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Participates =================================
+    id: 120315679660045992193
+    label: 
+      label: Participates
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 130
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:24:&APP_SESSION.::&DEBUG.:::'
+        page: 24 # Participates
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Ranking ======================================
+    id: 120315701454790992787
+    label: 
+      label: Ranking
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 140
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:26:&APP_SESSION.::&DEBUG.:::'
+        page: 26 # Ranking
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Player =======================================
+    id: 120315725515521993379
+    label: 
+      label: Player
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 150
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:28:&APP_SESSION.::&DEBUG.:::'
+        page: 28 # Player
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Player Contract ==============================
+    id: 120315754616476993960
+    label: 
+      label: Player Contract
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 160
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:30:&APP_SESSION.::&DEBUG.:::'
+        page: 30 # Player Contract
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Sponsor ======================================
+    id: 120315774688180994537
+    label: 
+      label: Sponsor
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 170
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:32:&APP_SESSION.::&DEBUG.:::'
+        page: 32 # Sponsor
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Sponsored By =================================
+    id: 120315789057991995120
+    label: 
+      label: Sponsored By
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 180
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:34:&APP_SESSION.::&DEBUG.:::'
+        page: 34 # Sponsored By
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Users ========================================
+    id: 120373347369628237207
+    label: 
+      label: Users
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 190
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 38
+      - 39
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:38:&APP_SESSION.::&DEBUG.:::'
+        page: 38 # Users
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Users ========================================
+    id: 120397023786506070784
+    label: 
+      label: Users
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 200
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 40
+      - 41
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:40:&APP_SESSION.::&DEBUG.:::'
+        page: 40
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Top 3 venues that hosted the most matches, sor
+    id: 121218943804778636642
+    label: 
+      label: Top 3 venues that hosted the most matches, sorted by match count
+
+    icon: 
+      image/icon-css-classes: fa-file-o
+
+    layout: 
+      sequence: 220
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 39
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:39:&APP_SESSION.::&DEBUG.:::'
+        page: 39 # Top 3 venues that hosted the most matches, sorted by match count
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Total audience per match =====================
+    id: 121268223617980923436
+    label: 
+      label: Total audience per match
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 230
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 42
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:42:&APP_SESSION.::&DEBUG.:::'
+        page: 42 # Total audience per match
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Players earning more than the team-wise averag
+    id: 121272118420321677924
+    label: 
+      label: Players earning more than the team-wise average salary
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 240
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 44
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:44:&APP_SESSION.::&DEBUG.:::'
+        page: 44 # Players earning more than the team-wise average salary
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Teams Participating in Tournaments with High A
+    id: 121274328656975006359
+    label: 
+      label: Teams Participating in Tournaments with High Audience Turnout
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 250
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 46
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:46:&APP_SESSION.::&DEBUG.:::'
+        page: 46 # Teams Participating in Tournaments with High Audience Turnout
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Get the average ticket price for each type of 
+    id: 121275731512601704094
+    label: 
+      label: Get the average ticket price for each type of ticket (REGULAR, VIP, etc.) and the total number of tickets sold
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 260
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 48
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:48:&APP_SESSION.::&DEBUG.:::'
+        page: 48 # Get the average ticket price for each type of ticket (REGULAR, VIP, etc.) and the total number of tickets sold
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Tournaments That Have Matches Scheduled but No
+    id: 121277469699501731225
+    label: 
+      label: Tournaments That Have Matches Scheduled but Not Completed
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 280
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 52
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:52:&APP_SESSION.::&DEBUG.:::'
+        page: 52 # Tournaments That Have Matches Scheduled but Not Completed
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Find the top 3 venues that hosted the most mat
+    id: 121277552884443035098
+    label: 
+      label: Find the top 3 venues that hosted the most matches, sorted by match count
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 270
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 50
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:50:&APP_SESSION.::&DEBUG.:::'
+        page: 50 # Find the top 3 venues that hosted the most matches, sorted by match count
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Cities That Have More Than One Registered Pers
+    id: 121278329854313053014
+    label: 
+      label: Cities That Have More Than One Registered Person
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 290
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 54
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:54:&APP_SESSION.::&DEBUG.:::'
+        page: 54 # Cities That Have More Than One Registered Person
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Players Whose Contract Salary Is the Maximum i
+    id: 121278425687288066801
+    label: 
+      label: Players Whose Contract Salary Is the Maximum in Their Team
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 300
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 56
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:56:&APP_SESSION.::&DEBUG.:::'
+        page: 56 # Players Whose Contract Salary Is the Maximum in Their Team
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Teams With More Wins Than Losses =============
+    id: 121278955433959765814
+    label: 
+      label: Teams With More Wins Than Losses
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 310
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 58
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:58:&APP_SESSION.::&DEBUG.:::'
+        page: 58 # Teams With More Wins Than Losses
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Ticket Types That Are Sold More Than the Avera
+    id: 121279341678346091028
+    label: 
+      label: Ticket Types That Are Sold More Than the Average Ticket Sales
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 320
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 60
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:60:&APP_SESSION.::&DEBUG.:::'
+        page: 60 # Ticket Types That Are Sold More Than the Average Ticket Sales
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: List of Coaches Whose Name Starts with ‘A’ and
+    id: 121279749831937786083
+    label: 
+      label: List of Coaches Whose Name Starts with ‘A’ and Salary Above Average
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 330
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 62
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:62:&APP_SESSION.::&DEBUG.:::'
+        page: 62 # List of Coaches Whose Name Starts with ‘A’ and Salary Above Average
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Tournament with the highest number of particip
+    id: 121280068073471117253
+    label: 
+      label: Tournament with the highest number of participating teams
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 340
+
+    is-current: 
+      type: Pages
+      pages: 
+      - 64
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:64:&APP_SESSION.::&DEBUG.:::'
+        page: 64 # Tournament with the highest number of participating teams
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+- # ====== List: Navigation Bar ================================
+  id: 120315208777105986117
+  identification: 
+    name: Navigation Bar
+
+  subscription: 
+    version-number: 15683751342992
+
+  source: 
+    type: Static Values
+
+  entries: 
+  - # ====== Entry: &APP_USER. ===================================
+    id: 120316165463346995844
+    label: 
+      label: '&APP_USER.'
+
+    icon: 
+      image/icon-css-classes: fa-user
+
+    layout: 
+      sequence: 10
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: '#'
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+      2.: has-username
+
+  - # ====== Entry: --- ==========================================
+    id: 120316165851021995845
+    label: 
+      label: '---'
+
+    layout: 
+      sequence: 20
+      parent-entry: '&APP_USER.' # 120316165463346995844
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: separator
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+    server-side-condition: 
+      type: User is Authenticated (not public)
+
+  - # ====== Entry: Sign Out =====================================
+    id: 120316166297627995845
+    label: 
+      label: Sign Out
+
+    icon: 
+      image/icon-css-classes: fa-sign-out
+
+    layout: 
+      sequence: 30
+      parent-entry: '&APP_USER.' # 120316165463346995844
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: '&LOGOUT_URL.'
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+    server-side-condition: 
+      type: User is Authenticated (not public)
+
+- # ====== List: Page Navigation ===============================
+  id: 120316157927884995837
+  identification: 
+    name: Page Navigation
+
+  subscription: 
+    version-number: 15683751342876
+
+  source: 
+    type: Static Values
+
+  entries: 
+  - # ====== Entry: Person =======================================
+    id: 120316158395878995839
+    label: 
+      label: Person
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 20
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:2:&APP_SESSION.::&DEBUG.:::'
+        page: 2 # Person
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Team =========================================
+    id: 120316158768554995839
+    label: 
+      label: Team
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 30
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:4:&APP_SESSION.::&DEBUG.:::'
+        page: 4 # Team
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Tournament ===================================
+    id: 120316159196813995840
+    label: 
+      label: Tournament
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 40
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:6:&APP_SESSION.::&DEBUG.:::'
+        page: 6 # Tournament
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Venue ========================================
+    id: 120316159545350995840
+    label: 
+      label: Venue
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 50
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:8:&APP_SESSION.::&DEBUG.:::'
+        page: 8 # Venue
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Ticket =======================================
+    id: 120316159918152995840
+    label: 
+      label: Ticket
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 60
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:10:&APP_SESSION.::&DEBUG.:::'
+        page: 10 # Ticket
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Audience =====================================
+    id: 120316160336423995840
+    label: 
+      label: Audience
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 70
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:12:&APP_SESSION.::&DEBUG.:::'
+        page: 12 # Audience
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Coach ========================================
+    id: 120316160750118995840
+    label: 
+      label: Coach
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 80
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:14:&APP_SESSION.::&DEBUG.:::'
+        page: 14 # Coach
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Match ========================================
+    id: 120316161124258995841
+    label: 
+      label: Match
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 90
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:16:&APP_SESSION.::&DEBUG.:::'
+        page: 16 # Match
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Schedule =====================================
+    id: 120316161586031995841
+    label: 
+      label: Schedule
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 100
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:18:&APP_SESSION.::&DEBUG.:::'
+        page: 18 # Schedule
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Match Statistics =============================
+    id: 120316161932945995841
+    label: 
+      label: Match Statistics
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 110
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:20:&APP_SESSION.::&DEBUG.:::'
+        page: 20 # Match Statistics
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Attends ======================================
+    id: 120316162384516995841
+    label: 
+      label: Attends
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 120
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:22:&APP_SESSION.::&DEBUG.:::'
+        page: 22 # Attends
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Participates =================================
+    id: 120316162715914995842
+    label: 
+      label: Participates
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 130
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:24:&APP_SESSION.::&DEBUG.:::'
+        page: 24 # Participates
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Ranking ======================================
+    id: 120316163158062995842
+    label: 
+      label: Ranking
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 140
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:26:&APP_SESSION.::&DEBUG.:::'
+        page: 26 # Ranking
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Player =======================================
+    id: 120316163591379995842
+    label: 
+      label: Player
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 150
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:28:&APP_SESSION.::&DEBUG.:::'
+        page: 28 # Player
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Player Contract ==============================
+    id: 120316163978502995842
+    label: 
+      label: Player Contract
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 160
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:30:&APP_SESSION.::&DEBUG.:::'
+        page: 30 # Player Contract
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Sponsor ======================================
+    id: 120316164376260995843
+    label: 
+      label: Sponsor
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 170
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:32:&APP_SESSION.::&DEBUG.:::'
+        page: 32 # Sponsor
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+
+  - # ====== Entry: Sponsored By =================================
+    id: 120316164707756995843
+    label: 
+      label: Sponsored By
+
+    icon: 
+      image/icon-css-classes: fa-table
+
+    layout: 
+      sequence: 180
+
+    is-current: 
+      type: Target Page
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:34:&APP_SESSION.::&DEBUG.:::'
+        page: 34 # Sponsored By
+
+    click-counting: 
+      count-clicks: false
+
+    user-defined-attributes: 
+      translatable: false
+

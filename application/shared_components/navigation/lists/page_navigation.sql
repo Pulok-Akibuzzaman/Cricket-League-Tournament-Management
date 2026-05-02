@@ -1,0 +1,230 @@
+prompt --application/shared_components/navigation/lists/page_navigation
+begin
+--   Manifest
+--     LIST: Page Navigation
+--   Manifest End
+wwv_flow_imp.component_begin (
+ p_version_yyyy_mm_dd=>'2024.11.30'
+,p_release=>'24.2.16'
+,p_default_workspace_id=>114119743218370744590
+,p_default_application_id=>176948
+,p_default_id_offset=>0
+,p_default_owner=>'WKSP_EWU2025'
+);
+wwv_flow_imp_shared.create_list(
+ p_id=>wwv_flow_imp.id(120316157927884995837)
+,p_name=>'Page Navigation'
+,p_list_status=>'PUBLIC'
+,p_version_scn=>15683751342876
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316158395878995839)
+,p_list_item_display_sequence=>20
+,p_list_item_link_text=>'Person'
+,p_list_item_link_target=>'f?p=&APP_ID.:2:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316158768554995839)
+,p_list_item_display_sequence=>30
+,p_list_item_link_text=>'Team'
+,p_list_item_link_target=>'f?p=&APP_ID.:4:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316159196813995840)
+,p_list_item_display_sequence=>40
+,p_list_item_link_text=>'Tournament'
+,p_list_item_link_target=>'f?p=&APP_ID.:6:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316159545350995840)
+,p_list_item_display_sequence=>50
+,p_list_item_link_text=>'Venue'
+,p_list_item_link_target=>'f?p=&APP_ID.:8:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316159918152995840)
+,p_list_item_display_sequence=>60
+,p_list_item_link_text=>'Ticket'
+,p_list_item_link_target=>'f?p=&APP_ID.:10:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316160336423995840)
+,p_list_item_display_sequence=>70
+,p_list_item_link_text=>'Audience'
+,p_list_item_link_target=>'f?p=&APP_ID.:12:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316160750118995840)
+,p_list_item_display_sequence=>80
+,p_list_item_link_text=>'Coach'
+,p_list_item_link_target=>'f?p=&APP_ID.:14:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316161124258995841)
+,p_list_item_display_sequence=>90
+,p_list_item_link_text=>'Match'
+,p_list_item_link_target=>'f?p=&APP_ID.:16:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316161586031995841)
+,p_list_item_display_sequence=>100
+,p_list_item_link_text=>'Schedule'
+,p_list_item_link_target=>'f?p=&APP_ID.:18:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316161932945995841)
+,p_list_item_display_sequence=>110
+,p_list_item_link_text=>'Match Statistics'
+,p_list_item_link_target=>'f?p=&APP_ID.:20:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316162384516995841)
+,p_list_item_display_sequence=>120
+,p_list_item_link_text=>'Attends'
+,p_list_item_link_target=>'f?p=&APP_ID.:22:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316162715914995842)
+,p_list_item_display_sequence=>130
+,p_list_item_link_text=>'Participates'
+,p_list_item_link_target=>'f?p=&APP_ID.:24:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316163158062995842)
+,p_list_item_display_sequence=>140
+,p_list_item_link_text=>'Ranking'
+,p_list_item_link_target=>'f?p=&APP_ID.:26:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316163591379995842)
+,p_list_item_display_sequence=>150
+,p_list_item_link_text=>'Player'
+,p_list_item_link_target=>'f?p=&APP_ID.:28:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316163978502995842)
+,p_list_item_display_sequence=>160
+,p_list_item_link_text=>'Player Contract'
+,p_list_item_link_target=>'f?p=&APP_ID.:30:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316164376260995843)
+,p_list_item_display_sequence=>170
+,p_list_item_link_text=>'Sponsor'
+,p_list_item_link_target=>'f?p=&APP_ID.:32:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(120316164707756995843)
+,p_list_item_display_sequence=>180
+,p_list_item_link_text=>'Sponsored By'
+,p_list_item_link_target=>'f?p=&APP_ID.:34:&APP_SESSION.::&DEBUG.:::'
+,p_list_item_icon=>'fa-table'
+,p_list_item_current_type=>'TARGET_PAGE'
+,p_created_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144651Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp.component_end;
+end;
+/

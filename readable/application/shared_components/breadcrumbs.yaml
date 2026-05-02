@@ -1,0 +1,455 @@
+---
+- # ====== Breadcrumb: Breadcrumb ==============================
+  id: 120315207032966986114
+  identification: 
+    name: Breadcrumb
+
+  entries: 
+  - # ====== Entry: Home =========================================
+    id: 120315207237855986114
+    identification: 
+      name: Home
+      page-number: 1
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:1:&APP_SESSION.::&DEBUG.:::'
+        page: 1 # Home
+
+  - # ====== Entry: Person =======================================
+    id: 120315253274603986340
+    identification: 
+      name: Person
+      page-number: 2
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:2:&APP_SESSION.::&DEBUG.:::'
+        page: 2 # Person
+
+  - # ====== Entry: Team =========================================
+    id: 120315270561949986970
+    identification: 
+      name: Team
+      page-number: 4
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:4:&APP_SESSION.::&DEBUG.:::'
+        page: 4 # Team
+
+  - # ====== Entry: Tournament ===================================
+    id: 120315524925734987560
+    identification: 
+      name: Tournament
+      page-number: 6
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:6:&APP_SESSION.::&DEBUG.:::'
+        page: 6 # Tournament
+
+  - # ====== Entry: Venue ========================================
+    id: 120315541278105988140
+    identification: 
+      name: Venue
+      page-number: 8
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:8:&APP_SESSION.::&DEBUG.:::'
+        page: 8 # Venue
+
+  - # ====== Entry: Ticket =======================================
+    id: 120315561446665988725
+    identification: 
+      name: Ticket
+      page-number: 10
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:10:&APP_SESSION.::&DEBUG.:::'
+        page: 10 # Ticket
+
+  - # ====== Entry: Audience =====================================
+    id: 120315578500815989299
+    identification: 
+      name: Audience
+      page-number: 12
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:12:&APP_SESSION.::&DEBUG.:::'
+        page: 12 # Audience
+
+  - # ====== Entry: Coach ========================================
+    id: 120315601044913989891
+    identification: 
+      name: Coach
+      page-number: 14
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:14:&APP_SESSION.::&DEBUG.:::'
+        page: 14 # Coach
+
+  - # ====== Entry: Match ========================================
+    id: 120315620366108990458
+    identification: 
+      name: Match
+      page-number: 16
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:16:&APP_SESSION.::&DEBUG.:::'
+        page: 16 # Match
+
+  - # ====== Entry: Schedule =====================================
+    id: 120315636730318991032
+    identification: 
+      name: Schedule
+      page-number: 18
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:18:&APP_SESSION.::&DEBUG.:::'
+        page: 18 # Schedule
+
+  - # ====== Entry: Match Statistics =============================
+    id: 120315662800597991610
+    identification: 
+      name: Match Statistics
+      page-number: 20
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:20:&APP_SESSION.::&DEBUG.:::'
+        page: 20 # Match Statistics
+
+  - # ====== Entry: Attends ======================================
+    id: 120315678929230992192
+    identification: 
+      name: Attends
+      page-number: 22
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:22:&APP_SESSION.::&DEBUG.:::'
+        page: 22 # Attends
+
+  - # ====== Entry: Participates =================================
+    id: 120315700296174992786
+    identification: 
+      name: Participates
+      page-number: 24
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:24:&APP_SESSION.::&DEBUG.:::'
+        page: 24 # Participates
+
+  - # ====== Entry: Ranking ======================================
+    id: 120315724839090993379
+    identification: 
+      name: Ranking
+      page-number: 26
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:26:&APP_SESSION.::&DEBUG.:::'
+        page: 26 # Ranking
+
+  - # ====== Entry: Player =======================================
+    id: 120315753998481993959
+    identification: 
+      name: Player
+      page-number: 28
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:28:&APP_SESSION.::&DEBUG.:::'
+        page: 28 # Player
+
+  - # ====== Entry: Player Contract ==============================
+    id: 120315773935312994536
+    identification: 
+      name: Player Contract
+      page-number: 30
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:30:&APP_SESSION.::&DEBUG.:::'
+        page: 30 # Player Contract
+
+  - # ====== Entry: Sponsor ======================================
+    id: 120315788364353995119
+    identification: 
+      name: Sponsor
+      page-number: 32
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:32:&APP_SESSION.::&DEBUG.:::'
+        page: 32 # Sponsor
+
+  - # ====== Entry: Sponsored By =================================
+    id: 120315803510219995698
+    identification: 
+      name: Sponsored By
+      page-number: 34
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:34:&APP_SESSION.::&DEBUG.:::'
+        page: 34 # Sponsored By
+
+  - # ====== Entry: Users ========================================
+    id: 120373352150750237211
+    identification: 
+      name: Users
+      page-number: 38
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:38:&APP_SESSION.::&DEBUG.:::'
+        page: 38 # Users
+
+  - # ====== Entry: Top 3 venues that hosted the most matches, sor
+    id: 121218944757394636643
+    identification: 
+      name: Top 3 venues that hosted the most matches, sorted by match count
+      page-number: 39
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:39:&APP_SESSION.::&DEBUG.:::'
+        page: 39 # Top 3 venues that hosted the most matches, sorted by match count
+
+  - # ====== Entry: Total audience per match =====================
+    id: 121268224687844923437
+    identification: 
+      name: Total audience per match
+      page-number: 42
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:42:&APP_SESSION.::&DEBUG.:::'
+        page: 42 # Total audience per match
+
+  - # ====== Entry: Players earning more than the team-wise averag
+    id: 121272119728906677926
+    identification: 
+      name: Players earning more than the team-wise average salary
+      page-number: 44
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:44:&APP_SESSION.::&DEBUG.:::'
+        page: 44 # Players earning more than the team-wise average salary
+
+  - # ====== Entry: Teams Participating in Tournaments with High A
+    id: 121274329552984006361
+    identification: 
+      name: Teams Participating in Tournaments with High Audience Turnout
+      page-number: 46
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:46:&APP_SESSION.::&DEBUG.:::'
+        page: 46 # Teams Participating in Tournaments with High Audience Turnout
+
+  - # ====== Entry: Get the average ticket price for each type of 
+    id: 121275732442511704095
+    identification: 
+      name: Get the average ticket price for each type of ticket (REGULAR, VIP, etc.) and the total number of tickets sold
+      page-number: 48
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:48:&APP_SESSION.::&DEBUG.:::'
+        page: 48 # Get the average ticket price for each type of ticket (REGULAR, VIP, etc.) and the total number of tickets sold
+
+  - # ====== Entry: Tournaments That Have Matches Scheduled but No
+    id: 121277470593125731226
+    identification: 
+      name: Tournaments That Have Matches Scheduled but Not Completed
+      page-number: 52
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:52:&APP_SESSION.::&DEBUG.:::'
+        page: 52 # Tournaments That Have Matches Scheduled but Not Completed
+
+  - # ====== Entry: Find the top 3 venues that hosted the most mat
+    id: 121277553772653035100
+    identification: 
+      name: Find the top 3 venues that hosted the most matches, sorted by match count
+      page-number: 50
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:50:&APP_SESSION.::&DEBUG.:::'
+        page: 50 # Find the top 3 venues that hosted the most matches, sorted by match count
+
+  - # ====== Entry: Cities That Have More Than One Registered Pers
+    id: 121278330686385053015
+    identification: 
+      name: Cities That Have More Than One Registered Person
+      page-number: 54
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:54:&APP_SESSION.::&DEBUG.:::'
+        page: 54 # Cities That Have More Than One Registered Person
+
+  - # ====== Entry: Players Whose Contract Salary Is the Maximum i
+    id: 121278426580940066802
+    identification: 
+      name: Players Whose Contract Salary Is the Maximum in Their Team
+      page-number: 56
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:56:&APP_SESSION.::&DEBUG.:::'
+        page: 56 # Players Whose Contract Salary Is the Maximum in Their Team
+
+  - # ====== Entry: Teams With More Wins Than Losses =============
+    id: 121278956300329765815
+    identification: 
+      name: Teams With More Wins Than Losses
+      page-number: 58
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:58:&APP_SESSION.::&DEBUG.:::'
+        page: 58 # Teams With More Wins Than Losses
+
+  - # ====== Entry: Ticket Types That Are Sold More Than the Avera
+    id: 121279342512631091030
+    identification: 
+      name: Ticket Types That Are Sold More Than the Average Ticket Sales
+      page-number: 60
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:60:&APP_SESSION.::&DEBUG.:::'
+        page: 60 # Ticket Types That Are Sold More Than the Average Ticket Sales
+
+  - # ====== Entry: List of Coaches Whose Name Starts with ‘A’ and
+    id: 121279750769855786084
+    identification: 
+      name: List of Coaches Whose Name Starts with ‘A’ and Salary Above Average
+      page-number: 62
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:62:&APP_SESSION.::&DEBUG.:::'
+        page: 62 # List of Coaches Whose Name Starts with ‘A’ and Salary Above Average
+
+  - # ====== Entry: Tournament with the highest number of particip
+    id: 121280068967637117255
+    identification: 
+      name: Tournament with the highest number of participating teams
+      page-number: 64
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:64:&APP_SESSION.::&DEBUG.:::'
+        page: 64 # Tournament with the highest number of participating teams
+

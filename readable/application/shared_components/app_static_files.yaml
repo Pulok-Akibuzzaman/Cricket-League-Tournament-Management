@@ -1,0 +1,72 @@
+---
+- # ====== Static Application File: icons/app-icon-32.png ======
+  id: 120315209761662986120
+  identification: 
+    file-name: icons/app-icon-32.png
+
+  attributes: 
+    mime-type: image/png
+    file-character-set: Unicode UTF-8
+
+- # ====== Static Application File: icons/app-icon-144-rounded.p
+  id: 120315210044285986121
+  identification: 
+    file-name: icons/app-icon-144-rounded.png
+
+  attributes: 
+    mime-type: image/png
+    file-character-set: Unicode UTF-8
+
+- # ====== Static Application File: icons/app-icon-192.png =====
+  id: 120315210359328986122
+  identification: 
+    file-name: icons/app-icon-192.png
+
+  attributes: 
+    mime-type: image/png
+    file-character-set: Unicode UTF-8
+
+- # ====== Static Application File: icons/app-icon-256-rounded.p
+  id: 120315210630152986123
+  identification: 
+    file-name: icons/app-icon-256-rounded.png
+
+  attributes: 
+    mime-type: image/png
+    file-character-set: Unicode UTF-8
+
+- # ====== Static Application File: icons/app-icon-512.png =====
+  id: 120315210933498986124
+  identification: 
+    file-name: icons/app-icon-512.png
+
+  attributes: 
+    mime-type: image/png
+    file-character-set: Unicode UTF-8
+
+- # ====== Static Application File: app-176948-logo.png ========
+  id: 120343583662254903994
+  identification: 
+    file-name: app-176948-logo.png
+
+  attributes: 
+    mime-type: image/png
+
+- # ====== Static Application File: Background/Background.jpeg =
+  id: 121282172734548885056
+  identification: 
+    file-name: Background/Background.jpeg
+
+  attributes: 
+    mime-type: image/jpeg
+    file-character-set: Unicode UTF-8
+
+- # ====== Static Application File: Background.jpeg ============
+  id: 121283715594981914695
+  identification: 
+    file-name: Background.jpeg
+
+  attributes: 
+    mime-type: image/jpeg
+    file-character-set: Unicode UTF-8
+

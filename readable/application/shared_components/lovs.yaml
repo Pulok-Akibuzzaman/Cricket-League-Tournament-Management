@@ -1,0 +1,141 @@
+---
+- # ====== List of Values: TICKET.SEAT_NO ======================
+  id: 120315568125075989289
+  identification: 
+    name: TICKET.SEAT_NO
+
+  subscription: 
+    version-number: 15683750936963
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: TICKET
+
+  column-mapping: 
+    return: TICKET_ID
+    display: SEAT_NO
+    default-sort: SEAT_NO
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: PERSON.NAME =========================
+  id: 120315585121221989878
+  identification: 
+    name: PERSON.NAME
+
+  subscription: 
+    version-number: 15683750968181
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: PERSON
+
+  column-mapping: 
+    return: PERSON_ID
+    display: NAME
+    default-sort: NAME
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: TEAM.TEAM_NAME ======================
+  id: 120315585843623989878
+  identification: 
+    name: TEAM.TEAM_NAME
+
+  subscription: 
+    version-number: 15683750968193
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: TEAM
+
+  column-mapping: 
+    return: TEAM_ID
+    display: TEAM_NAME
+    default-sort: TEAM_NAME
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: TOURNAMENT.NAME =====================
+  id: 120315606497089990446
+  identification: 
+    name: TOURNAMENT.NAME
+
+  subscription: 
+    version-number: 15683750997138
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: TOURNAMENT
+
+  column-mapping: 
+    return: TOURNAMENT_ID
+    display: NAME
+    default-sort: NAME
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: VENUE.STADIUM_NAME ==================
+  id: 120315607140883990447
+  identification: 
+    name: VENUE.STADIUM_NAME
+
+  subscription: 
+    version-number: 15683750997167
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: VENUE
+
+  column-mapping: 
+    return: VENUE_ID
+    display: STADIUM_NAME
+    default-sort: STADIUM_NAME
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: MATCH.MATCH_TYPE ====================
+  id: 120315643808317991594
+  identification: 
+    name: MATCH.MATCH_TYPE
+
+  subscription: 
+    version-number: 15683751055853
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: MATCH
+
+  column-mapping: 
+    return: MATCH_ID
+    display: MATCH_TYPE
+    default-sort: MATCH_TYPE
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: PLAYER.PERSON_ID ====================
+  id: 120315759423626994522
+  identification: 
+    name: PLAYER.PERSON_ID
+
+  subscription: 
+    version-number: 15683751254902
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: PLAYER
+
+  column-mapping: 
+    return: PLAYER_ID
+    display: PERSON_ID
+    default-sort: PERSON_ID
+    sort-direction: Ascending (Nulls Last)
+

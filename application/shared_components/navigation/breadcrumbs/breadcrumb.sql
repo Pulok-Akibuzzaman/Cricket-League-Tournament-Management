@@ -1,0 +1,344 @@
+prompt --application/shared_components/navigation/breadcrumbs/breadcrumb
+begin
+--   Manifest
+--     MENU: Breadcrumb
+--   Manifest End
+wwv_flow_imp.component_begin (
+ p_version_yyyy_mm_dd=>'2024.11.30'
+,p_release=>'24.2.16'
+,p_default_workspace_id=>114119743218370744590
+,p_default_application_id=>176948
+,p_default_id_offset=>0
+,p_default_owner=>'WKSP_EWU2025'
+);
+wwv_flow_imp_shared.create_menu(
+ p_id=>wwv_flow_imp.id(120315207032966986114)
+,p_name=>'Breadcrumb'
+,p_created_on=>wwv_flow_imp.dz('20251215144514Z')
+,p_updated_on=>wwv_flow_imp.dz('20251217190129Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'AURNA'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315207237855986114)
+,p_short_name=>'Home'
+,p_link=>'f?p=&APP_ID.:1:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>1
+,p_created_on=>wwv_flow_imp.dz('20251215144514Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144514Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315253274603986340)
+,p_short_name=>'Person'
+,p_link=>'f?p=&APP_ID.:2:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>2
+,p_created_on=>wwv_flow_imp.dz('20251215144516Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144516Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315270561949986970)
+,p_short_name=>'Team'
+,p_link=>'f?p=&APP_ID.:4:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>4
+,p_created_on=>wwv_flow_imp.dz('20251215144523Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144523Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315524925734987560)
+,p_short_name=>'Tournament'
+,p_link=>'f?p=&APP_ID.:6:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>6
+,p_created_on=>wwv_flow_imp.dz('20251215144529Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144529Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315541278105988140)
+,p_short_name=>'Venue'
+,p_link=>'f?p=&APP_ID.:8:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>8
+,p_created_on=>wwv_flow_imp.dz('20251215144534Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144534Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315561446665988725)
+,p_short_name=>'Ticket'
+,p_link=>'f?p=&APP_ID.:10:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>10
+,p_created_on=>wwv_flow_imp.dz('20251215144540Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144540Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315578500815989299)
+,p_short_name=>'Audience'
+,p_link=>'f?p=&APP_ID.:12:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>12
+,p_created_on=>wwv_flow_imp.dz('20251215144546Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144546Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315601044913989891)
+,p_short_name=>'Coach'
+,p_link=>'f?p=&APP_ID.:14:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>14
+,p_created_on=>wwv_flow_imp.dz('20251215144552Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144552Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315620366108990458)
+,p_short_name=>'Match'
+,p_link=>'f?p=&APP_ID.:16:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>16
+,p_created_on=>wwv_flow_imp.dz('20251215144558Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144558Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315636730318991032)
+,p_short_name=>'Schedule'
+,p_link=>'f?p=&APP_ID.:18:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>18
+,p_created_on=>wwv_flow_imp.dz('20251215144603Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144603Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315662800597991610)
+,p_short_name=>'Match Statistics'
+,p_link=>'f?p=&APP_ID.:20:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>20
+,p_created_on=>wwv_flow_imp.dz('20251215144609Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144609Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315678929230992192)
+,p_short_name=>'Attends'
+,p_link=>'f?p=&APP_ID.:22:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>22
+,p_created_on=>wwv_flow_imp.dz('20251215144615Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144615Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315700296174992786)
+,p_short_name=>'Participates'
+,p_link=>'f?p=&APP_ID.:24:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>24
+,p_created_on=>wwv_flow_imp.dz('20251215144621Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144621Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315724839090993379)
+,p_short_name=>'Ranking'
+,p_link=>'f?p=&APP_ID.:26:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>26
+,p_created_on=>wwv_flow_imp.dz('20251215144627Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144627Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315753998481993959)
+,p_short_name=>'Player'
+,p_link=>'f?p=&APP_ID.:28:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>28
+,p_created_on=>wwv_flow_imp.dz('20251215144633Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144633Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315773935312994536)
+,p_short_name=>'Player Contract'
+,p_link=>'f?p=&APP_ID.:30:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>30
+,p_created_on=>wwv_flow_imp.dz('20251215144638Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144638Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315788364353995119)
+,p_short_name=>'Sponsor'
+,p_link=>'f?p=&APP_ID.:32:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>32
+,p_created_on=>wwv_flow_imp.dz('20251215144644Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144644Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120315803510219995698)
+,p_short_name=>'Sponsored By'
+,p_link=>'f?p=&APP_ID.:34:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>34
+,p_created_on=>wwv_flow_imp.dz('20251215144650Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215144650Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(120373352150750237211)
+,p_short_name=>'Users'
+,p_link=>'f?p=&APP_ID.:38:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>38
+,p_created_on=>wwv_flow_imp.dz('20251215181345Z')
+,p_updated_on=>wwv_flow_imp.dz('20251215181345Z')
+,p_created_by=>'2023-3-60-051@STD.EWUBD.EDU'
+,p_updated_by=>'2023-3-60-051@STD.EWUBD.EDU'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(121218944757394636643)
+,p_short_name=>'Top 3 venues that hosted the most matches, sorted by match count'
+,p_link=>'f?p=&APP_ID.:39:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>39
+,p_created_on=>wwv_flow_imp.dz('20251217174123Z')
+,p_updated_on=>wwv_flow_imp.dz('20251217174123Z')
+,p_created_by=>'AURNA'
+,p_updated_by=>'AURNA'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(121268224687844923437)
+,p_short_name=>'Total audience per match'
+,p_link=>'f?p=&APP_ID.:42:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>42
+,p_created_on=>wwv_flow_imp.dz('20251217182911Z')
+,p_updated_on=>wwv_flow_imp.dz('20251217182911Z')
+,p_created_by=>'AURNA'
+,p_updated_by=>'AURNA'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(121272119728906677926)
+,p_short_name=>'Players earning more than the team-wise average salary'
+,p_link=>'f?p=&APP_ID.:44:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>44
+,p_created_on=>wwv_flow_imp.dz('20251217184032Z')
+,p_updated_on=>wwv_flow_imp.dz('20251217184032Z')
+,p_created_by=>'AURNA'
+,p_updated_by=>'AURNA'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(121274329552984006361)
+,p_short_name=>'Teams Participating in Tournaments with High Audience Turnout'
+,p_link=>'f?p=&APP_ID.:46:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>46
+,p_created_on=>wwv_flow_imp.dz('20251217184300Z')
+,p_updated_on=>wwv_flow_imp.dz('20251217184300Z')
+,p_created_by=>'AURNA'
+,p_updated_by=>'AURNA'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(121275732442511704095)
+,p_short_name=>'Get the average ticket price for each type of ticket (REGULAR, VIP, etc.) and the total number of tickets sold'
+,p_link=>'f?p=&APP_ID.:48:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>48
+,p_created_on=>wwv_flow_imp.dz('20251217184454Z')
+,p_updated_on=>wwv_flow_imp.dz('20251217184454Z')
+,p_created_by=>'AURNA'
+,p_updated_by=>'AURNA'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(121277470593125731226)
+,p_short_name=>'Tournaments That Have Matches Scheduled but Not Completed'
+,p_link=>'f?p=&APP_ID.:52:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>52
+,p_created_on=>wwv_flow_imp.dz('20251217184925Z')
+,p_updated_on=>wwv_flow_imp.dz('20251217184925Z')
+,p_created_by=>'AURNA'
+,p_updated_by=>'AURNA'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(121277553772653035100)
+,p_short_name=>'Find the top 3 venues that hosted the most matches, sorted by match count'
+,p_link=>'f?p=&APP_ID.:50:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>50
+,p_created_on=>wwv_flow_imp.dz('20251217184747Z')
+,p_updated_on=>wwv_flow_imp.dz('20251217184747Z')
+,p_created_by=>'AURNA'
+,p_updated_by=>'AURNA'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(121278330686385053015)
+,p_short_name=>'Cities That Have More Than One Registered Person'
+,p_link=>'f?p=&APP_ID.:54:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>54
+,p_created_on=>wwv_flow_imp.dz('20251217185047Z')
+,p_updated_on=>wwv_flow_imp.dz('20251217185047Z')
+,p_created_by=>'AURNA'
+,p_updated_by=>'AURNA'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(121278426580940066802)
+,p_short_name=>'Players Whose Contract Salary Is the Maximum in Their Team'
+,p_link=>'f?p=&APP_ID.:56:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>56
+,p_created_on=>wwv_flow_imp.dz('20251217185304Z')
+,p_updated_on=>wwv_flow_imp.dz('20251217185304Z')
+,p_created_by=>'AURNA'
+,p_updated_by=>'AURNA'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(121278956300329765815)
+,p_short_name=>'Teams With More Wins Than Losses'
+,p_link=>'f?p=&APP_ID.:58:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>58
+,p_created_on=>wwv_flow_imp.dz('20251217185511Z')
+,p_updated_on=>wwv_flow_imp.dz('20251217185511Z')
+,p_created_by=>'AURNA'
+,p_updated_by=>'AURNA'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(121279342512631091030)
+,p_short_name=>'Ticket Types That Are Sold More Than the Average Ticket Sales'
+,p_link=>'f?p=&APP_ID.:60:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>60
+,p_created_on=>wwv_flow_imp.dz('20251217185707Z')
+,p_updated_on=>wwv_flow_imp.dz('20251217185707Z')
+,p_created_by=>'AURNA'
+,p_updated_by=>'AURNA'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(121279750769855786084)
+,p_short_name=>unistr('List of Coaches Whose Name Starts with \2018A\2019 and Salary Above Average')
+,p_link=>'f?p=&APP_ID.:62:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>62
+,p_created_on=>wwv_flow_imp.dz('20251217185834Z')
+,p_updated_on=>wwv_flow_imp.dz('20251217185834Z')
+,p_created_by=>'AURNA'
+,p_updated_by=>'AURNA'
+);
+wwv_flow_imp_shared.create_menu_option(
+ p_id=>wwv_flow_imp.id(121280068967637117255)
+,p_short_name=>'Tournament with the highest number of participating teams'
+,p_link=>'f?p=&APP_ID.:64:&APP_SESSION.::&DEBUG.:::'
+,p_page_id=>64
+,p_created_on=>wwv_flow_imp.dz('20251217190129Z')
+,p_updated_on=>wwv_flow_imp.dz('20251217190129Z')
+,p_created_by=>'AURNA'
+,p_updated_by=>'AURNA'
+);
+wwv_flow_imp.component_end;
+end;
+/
